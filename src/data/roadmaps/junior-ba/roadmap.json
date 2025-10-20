@@ -1,0 +1,447 @@
+{
+  "title": "Junior Business Analyst Roadmap",
+  "description": "Career path for Business Analysts with 0-2 years of experience",
+  "version": "2.0.0",
+  "lastUpdated": "2025-01-15",
+  "estimatedTimeToComplete": "12-18 months",
+  "nodes": [
+    {
+      "id": "foundations",
+      "type": "category",
+      "label": "Foundations",
+      "description": "Core BA fundamentals you must master first",
+      "color": "#2563eb",
+      "children": [
+        {
+          "id": "what-is-ba",
+          "type": "topic",
+          "label": "What is Business Analysis?",
+          "description": "Understanding the BA role, responsibilities, and value proposition",
+          "priority": "critical",
+          "timeEstimate": "1 week",
+          "resources": [
+            {
+              "type": "article",
+              "title": "Introduction to Business Analysis",
+              "url": "/content/roadmaps/junior-ba/what-is-ba.md",
+              "duration": "15 min read"
+            },
+            {
+              "type": "video",
+              "title": "Day in the Life of a Business Analyst",
+              "url": "https://youtube.com/watch?v=example",
+              "duration": "12 min"
+            },
+            {
+              "type": "book",
+              "title": "Business Analysis for Beginners",
+              "author": "Mohamed Elgendy",
+              "isbn": "978-1540508997"
+            }
+          ],
+          "selfAssessment": [
+            "Can you explain what a Business Analyst does to a non-technical person?",
+            "Can you list 5 key responsibilities of a BA?",
+            "Do you understand how BAs fit into Agile vs. Waterfall projects?"
+          ]
+        },
+        {
+          "id": "sdlc-basics",
+          "type": "topic",
+          "label": "SDLC Fundamentals",
+          "description": "Software Development Life Cycle models and BA's role in each phase",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "dependencies": ["what-is-ba"],
+          "resources": [
+            {
+              "type": "article",
+              "title": "SDLC Models Explained",
+              "url": "/content/roadmaps/junior-ba/sdlc-basics.md"
+            },
+            {
+              "type": "interactive",
+              "title": "SDLC Phase Simulator",
+              "url": "/tools/sdlc-simulator"
+            }
+          ]
+        },
+        {
+          "id": "requirements-basics",
+          "type": "topic",
+          "label": "Requirements Fundamentals",
+          "description": "What are requirements? Types, levels, and characteristics of good requirements",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "dependencies": ["sdlc-basics"],
+          "resources": [
+            {
+              "type": "article",
+              "title": "Requirements 101",
+              "url": "/content/roadmaps/junior-ba/requirements-basics.md"
+            }
+          ]
+        },
+        {
+          "id": "stakeholder-identification",
+          "type": "topic",
+          "label": "Stakeholder Identification",
+          "description": "Identifying stakeholders, creating stakeholder matrices, understanding influence and interest",
+          "priority": "high",
+          "timeEstimate": "1 week",
+          "dependencies": ["what-is-ba"],
+          "certifications": ["CBAP", "CCBA", "ECBA"]
+        }
+      ]
+    },
+    {
+      "id": "elicitation",
+      "type": "category",
+      "label": "Requirements Elicitation",
+      "description": "Techniques for gathering requirements from stakeholders",
+      "color": "#16a34a",
+      "dependencies": ["foundations"],
+      "children": [
+        {
+          "id": "elicitation-interviews",
+          "type": "topic",
+          "label": "Conducting Interviews",
+          "description": "One-on-one and group interview techniques for requirements gathering",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "skills": ["Communication", "Active Listening", "Note-Taking"],
+          "resources": [
+            {
+              "type": "article",
+              "title": "Mastering BA Interviews",
+              "url": "/content/roadmaps/junior-ba/interviews.md"
+            },
+            {
+              "type": "template",
+              "title": "Interview Question Template",
+              "url": "/templates/interview-questions.docx"
+            },
+            {
+              "type": "video",
+              "title": "Role-Play: Stakeholder Interview",
+              "url": "/videos/interview-roleplay"
+            }
+          ],
+          "practiceProject": {
+            "title": "Mock Stakeholder Interview",
+            "description": "Conduct a 30-minute interview with a mock stakeholder to gather requirements for an e-commerce checkout feature",
+            "deliverables": [
+              "Interview script",
+              "Meeting notes",
+              "Initial requirements list"
+            ]
+          }
+        },
+        {
+          "id": "elicitation-workshops",
+          "type": "topic",
+          "label": "Facilitated Workshops",
+          "description": "Planning and running requirements workshops with multiple stakeholders",
+          "priority": "high",
+          "timeEstimate": "3 weeks",
+          "dependencies": ["elicitation-interviews"],
+          "skills": ["Facilitation", "Conflict Resolution", "Time Management"]
+        },
+        {
+          "id": "elicitation-observation",
+          "type": "topic",
+          "label": "Observation & Job Shadowing",
+          "description": "Learning through observation of current processes and user behavior",
+          "priority": "medium",
+          "timeEstimate": "1 week"
+        },
+        {
+          "id": "elicitation-surveys",
+          "type": "topic",
+          "label": "Surveys & Questionnaires",
+          "description": "Designing effective surveys for large stakeholder groups",
+          "priority": "medium",
+          "timeEstimate": "1 week"
+        }
+      ]
+    },
+    {
+      "id": "documentation",
+      "type": "category",
+      "label": "Documentation",
+      "description": "Creating professional BA deliverables",
+      "color": "#dc2626",
+      "dependencies": ["elicitation"],
+      "children": [
+        {
+          "id": "user-stories",
+          "type": "topic",
+          "label": "Writing User Stories",
+          "description": "Agile user story format, acceptance criteria, INVEST principles",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "resources": [
+            {
+              "type": "article",
+              "title": "User Stories That Work",
+              "url": "/content/roadmaps/junior-ba/user-stories.md"
+            },
+            {
+              "type": "template",
+              "title": "User Story Template",
+              "url": "/templates/user-story-template.md"
+            },
+            {
+              "type": "tool",
+              "title": "User Story Validator",
+              "url": "/tools/user-story-validator"
+            }
+          ],
+          "practiceProject": {
+            "title": "E-Commerce User Stories",
+            "description": "Write 10 user stories for an e-commerce product page with acceptance criteria",
+            "rubric": [
+              "Stories follow 'As a [role], I want [feature], so that [benefit]' format",
+              "Acceptance criteria are clear and testable",
+              "Stories meet INVEST criteria"
+            ]
+          }
+        },
+        {
+          "id": "use-cases",
+          "type": "topic",
+          "label": "Use Case Documentation",
+          "description": "Traditional use case format for complex workflows",
+          "priority": "high",
+          "timeEstimate": "2 weeks"
+        },
+        {
+          "id": "process-flows",
+          "type": "topic",
+          "label": "Process Flow Diagrams",
+          "description": "Creating flowcharts, swimlane diagrams, BPMN basics",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "tools": ["Lucidchart", "Draw.io", "Visio"]
+        },
+        {
+          "id": "requirements-docs",
+          "type": "topic",
+          "label": "Requirements Documents (BRD/FRD)",
+          "description": "Business Requirements Documents and Functional Requirements Documents",
+          "priority": "high",
+          "timeEstimate": "3 weeks"
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "type": "category",
+      "label": "Essential Tools",
+      "description": "BA toolkit mastery",
+      "color": "#7c3aed",
+      "children": [
+        {
+          "id": "jira-basics",
+          "type": "tool",
+          "label": "Jira for BAs",
+          "description": "Creating stories, managing backlogs, using Jira workflows",
+          "priority": "critical",
+          "timeEstimate": "2 weeks",
+          "certifications": ["Jira Fundamentals Badge"],
+          "resources": [
+            {
+              "type": "course",
+              "title": "Jira for Business Analysts",
+              "provider": "Atlassian University",
+              "url": "https://university.atlassian.com"
+            }
+          ]
+        },
+        {
+          "id": "confluence",
+          "type": "tool",
+          "label": "Confluence Documentation",
+          "description": "Creating pages, templates, team spaces",
+          "priority": "high",
+          "timeEstimate": "1 week"
+        },
+        {
+          "id": "excel-intermediate",
+          "type": "tool",
+          "label": "Excel for BAs",
+          "description": "Pivot tables, VLOOKUP, data analysis for requirements",
+          "priority": "high",
+          "timeEstimate": "2 weeks"
+        },
+        {
+          "id": "lucidchart",
+          "type": "tool",
+          "label": "Lucidchart Diagramming",
+          "description": "Flowcharts, wireframes, ERDs, mockups",
+          "priority": "high",
+          "timeEstimate": "1 week"
+        }
+      ]
+    },
+    {
+      "id": "soft-skills",
+      "type": "category",
+      "label": "Soft Skills",
+      "description": "Communication, collaboration, and critical thinking",
+      "color": "#ea580c",
+      "children": [
+        {
+          "id": "communication",
+          "type": "skill",
+          "label": "Professional Communication",
+          "description": "Email etiquette, meeting facilitation, presentations",
+          "priority": "critical",
+          "timeEstimate": "Ongoing"
+        },
+        {
+          "id": "active-listening",
+          "type": "skill",
+          "label": "Active Listening",
+          "description": "Truly understanding stakeholder needs, asking clarifying questions",
+          "priority": "critical",
+          "timeEstimate": "Ongoing"
+        },
+        {
+          "id": "critical-thinking",
+          "type": "skill",
+          "label": "Critical Thinking",
+          "description": "Analyzing problems, identifying root causes, proposing solutions",
+          "priority": "high",
+          "timeEstimate": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "type": "category",
+      "label": "Career Development",
+      "description": "Building your BA career",
+      "color": "#0891b2",
+      "children": [
+        {
+          "id": "ecba-prep",
+          "type": "certification",
+          "label": "ECBA Certification",
+          "description": "Entry Certificate in Business Analysis (IIBA)",
+          "priority": "high",
+          "timeEstimate": "3 months",
+          "cost": "$110 USD (exam fee)",
+          "resources": [
+            {
+              "type": "study-guide",
+              "title": "ECBA Exam Prep Guide",
+              "url": "/content/certifications/ecba-guide.md"
+            }
+          ]
+        },
+        {
+          "id": "portfolio",
+          "type": "deliverable",
+          "label": "Build BA Portfolio",
+          "description": "Showcase requirements docs, diagrams, case studies",
+          "priority": "medium",
+          "timeEstimate": "Ongoing"
+        },
+        {
+          "id": "networking",
+          "type": "activity",
+          "label": "Professional Networking",
+          "description": "LinkedIn optimization, IIBA chapter membership, meetups",
+          "priority": "medium",
+          "timeEstimate": "Ongoing"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "milestone-1",
+      "title": "BA Foundations Complete",
+      "description": "You understand BA fundamentals and can explain the role confidently",
+      "requiredNodes": ["foundations"],
+      "estimatedTime": "1-2 months"
+    },
+    {
+      "id": "milestone-2",
+      "title": "Requirements Elicitation Competent",
+      "description": "You can conduct interviews and workshops to gather requirements",
+      "requiredNodes": ["elicitation"],
+      "estimatedTime": "3-4 months"
+    },
+    {
+      "id": "milestone-3",
+      "title": "Documentation Proficiency",
+      "description": "You can create user stories, use cases, and process flows",
+      "requiredNodes": ["documentation"],
+      "estimatedTime": "6-8 months"
+    },
+    {
+      "id": "milestone-4",
+      "title": "Tool Mastery",
+      "description": "You're proficient with Jira, Confluence, and diagramming tools",
+      "requiredNodes": ["tools"],
+      "estimatedTime": "9-12 months"
+    },
+    {
+      "id": "milestone-5",
+      "title": "Junior BA Ready",
+      "description": "You've completed the entire roadmap and are ready for mid-level BA roles",
+      "requiredNodes": ["foundations", "elicitation", "documentation", "tools", "soft-skills"],
+      "estimatedTime": "12-18 months",
+      "certificate": "Junior BA Completion Certificate"
+    }
+  ],
+  "practiceProjects": [
+    {
+      "id": "project-1",
+      "title": "Online Banking Feature Requirements",
+      "difficulty": "Beginner",
+      "description": "Document requirements for a new 'Bill Pay' feature in online banking",
+      "deliverables": [
+        "Stakeholder analysis",
+        "10 user stories with acceptance criteria",
+        "Process flow diagram",
+        "Mockup/wireframe"
+      ],
+      "skills": ["Elicitation", "Documentation", "Diagramming"]
+    },
+    {
+      "id": "project-2",
+      "title": "E-Commerce Checkout Redesign",
+      "difficulty": "Intermediate",
+      "description": "Gather requirements and document a complete checkout flow redesign",
+      "deliverables": [
+        "Current state process map",
+        "Future state process map",
+        "Use case document",
+        "Test cases"
+      ],
+      "skills": ["Process Modeling", "Use Cases", "Testing"]
+    }
+  ],
+  "recommendedLearningPath": [
+    "foundations",
+    "elicitation",
+    "documentation",
+    "tools",
+    "soft-skills",
+    "career"
+  ],
+  "metadata": {
+    "difficulty": "Beginner",
+    "targetRole": "Junior Business Analyst",
+    "industryFocus": "General (Technology, Finance, Healthcare)",
+    "methodology": "Agile & Waterfall hybrid",
+    "contributors": [
+      "John Doe (@jdoe)",
+      "Sarah Smith (@sarahBA)",
+      "Community Feedback"
+    ]
+  }
+}
