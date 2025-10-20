@@ -7,11 +7,12 @@
 **Interactive career roadmaps for Business Analysts**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Repo stars](https://img.shields.io/github/stars/ba-pathfinder/ba-pathfinder?style=social)](https://github.com/ba-pathfinder/ba-pathfinder/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/ba-pathfinder/ba-pathfinder?color=brightgreen)](https://github.com/ba-pathfinder/ba-pathfinder/graphs/contributors)
+[![GitHub Repo stars](https://img.shields.io/github/stars/guitargnarr/ba-pathfinder?style=social)](https://github.com/guitargnarr/ba-pathfinder/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/guitargnarr/ba-pathfinder?color=brightgreen)](https://github.com/guitargnarr/ba-pathfinder/graphs/contributors)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://ba-pathfinder.vercel.app)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-[**🚀 View Roadmaps**](https://ba-pathfinder.com) • [**📚 Guides**](https://ba-pathfinder.com/guides) • [**💬 Community**](https://github.com/ba-pathfinder/ba-pathfinder/discussions) • [**🤝 Contribute**](CONTRIBUTING.md)
+[**🚀 Live Site**](https://ba-pathfinder.vercel.app) • [**💬 Community**](https://github.com/guitargnarr/ba-pathfinder/discussions) • [**🤝 Contribute**](CONTRIBUTING.md) • [**⭐ Star on GitHub**](https://github.com/guitargnarr/ba-pathfinder)
 
 </div>
 
