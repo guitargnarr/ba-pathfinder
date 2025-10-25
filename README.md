@@ -32,76 +32,35 @@
 
 ## 🗺️ Available Roadmaps
 
+### Currently Available ✅
+
 <table>
 <tr>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/junior-ba">
-<img src="./public/icons/junior-ba.svg" width="80" height="80">
-<br><strong>Junior BA</strong>
+<td align="center" width="33%">
+<a href="https://ba-pathfinder.vercel.app/roadmaps/junior-ba">
+<strong>🎓 Junior BA</strong>
 </a>
 <br>
-<sub>0-2 years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/mid-level-ba">
-<img src="./public/icons/mid-ba.svg" width="80" height="80">
-<br><strong>Mid-Level BA</strong>
-</a>
+<sub>0-2 years experience</sub>
 <br>
-<sub>2-5 years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/senior-ba">
-<img src="./public/icons/senior-ba.svg" width="80" height="80">
-<br><strong>Senior BA</strong>
-</a>
-<br>
-<sub>5+ years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/product-owner">
-<img src="./public/icons/po.svg" width="80" height="80">
-<br><strong>Product Owner</strong>
-</a>
-<br>
-<sub>Agile/Scrum</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/business-systems-analyst">
-<img src="./public/icons/bsa.svg" width="80" height="80">
-<br><strong>Business Systems Analyst</strong>
-</a>
-<br>
-<sub>Technical BA</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/data-analyst">
-<img src="./public/icons/data.svg" width="80" height="80">
-<br><strong>Data Analyst</strong>
-</a>
-<br>
-<sub>Analytics focus</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/agile-coach">
-<img src="./public/icons/coach.svg" width="80" height="80">
-<br><strong>Agile Coach</strong>
-</a>
-<br>
-<sub>Transformation</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/director-vp">
-<img src="./public/icons/leadership.svg" width="80" height="80">
-<br><strong>Director/VP BA</strong>
-</a>
-<br>
-<sub>Leadership</sub>
+<sub>✅ <strong>Available Now</strong></sub>
 </td>
 </tr>
 </table>
+
+### Coming Soon 🚧
+
+The following roadmaps are planned for future releases:
+
+- **Mid-Level BA** (2-5 years) - Coming Q1 2026
+- **Senior BA** (5+ years) - Coming Q1 2026
+- **Product Owner** (Agile/Scrum) - Coming Q2 2026
+- **Business Systems Analyst** (Technical BA) - Coming Q2 2026
+- **Data Analyst** (Analytics focus) - Coming Q2 2026
+- **Agile Coach** (Transformation) - Coming Q3 2026
+- **Director/VP BA** (Leadership) - Coming Q3 2026
+
+**Want to help build these roadmaps?** Check out our [contribution guide](CONTRIBUTING.md)!
 
 ---
 
@@ -165,12 +124,12 @@ npm run dev
 # Open http://localhost:3000
 ```
 
-### Download Roadmaps (PDF/PNG)
+### Explore Roadmaps
 
-All roadmaps available as high-resolution downloads:
-- [Junior BA Roadmap (PDF)](https://ba-pathfinder.com/downloads/junior-ba.pdf)
-- [Mid-Level BA Roadmap (PNG)](https://ba-pathfinder.com/downloads/mid-level-ba.png)
-- [Senior BA Roadmap (PDF)](https://ba-pathfinder.com/downloads/senior-ba.pdf)
+Currently available:
+- [Junior BA Roadmap](https://ba-pathfinder.vercel.app/roadmaps/junior-ba) - Interactive learning path for aspiring BAs
+
+> **Note:** PDF/PNG downloads coming in future release!
 
 ---
 
@@ -275,15 +234,17 @@ We're community-driven! **Everyone can contribute:**
 
 ---
 
-## 📊 Project Statistics
+## 📊 Project Status
 
-- **🌟 Stars:** 150,000+
-- **🍴 Forks:** 20,000+
-- **👥 Contributors:** 2,000+
-- **🗺️ Roadmaps:** 8 career paths
-- **📖 Content Pages:** 500+ topics
-- **📥 Downloads:** 1M+ roadmap exports
-- **🌍 Languages:** 12 translations
+**Current Phase:** Early Development (MVP)
+
+- **🗺️ Roadmaps:** 1 available (Junior BA), 7 planned
+- **📖 Content Pages:** 8 topics written (20+ planned for Junior BA)
+- **🚀 Status:** Live on Vercel
+- **📅 Launch Date:** October 2025
+- **🤝 Contributors:** Growing community - [join us](CONTRIBUTING.md)!
+
+**Help us grow!** Star the repo, share with your BA network, and contribute content.
 
 ---
 
