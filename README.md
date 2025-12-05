@@ -1,214 +1,102 @@
-# BA Pathfinder 🗺️
+# BA Pathfinder
 
-<div align="center">
+**Career Domain: Business Analyst Path Synthesis**
 
-![BA Pathfinder Logo](./public/logo.svg)
+Interactive career roadmaps that map the chaotic BA career landscape into navigable progressions.
 
-**Interactive career roadmaps for Business Analysts**
-
+[![Live Demo](https://img.shields.io/badge/Live-Demo-teal)](https://ba-pathfinder.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Repo stars](https://img.shields.io/github/stars/guitargnarr/ba-pathfinder?style=social)](https://github.com/guitargnarr/ba-pathfinder/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/guitargnarr/ba-pathfinder?color=brightgreen)](https://github.com/guitargnarr/ba-pathfinder/graphs/contributors)
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://ba-pathfinder.vercel.app)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-
-[**🚀 Live Site**](https://ba-pathfinder.vercel.app) • [**💬 Community**](https://github.com/guitargnarr/ba-pathfinder/discussions) • [**🤝 Contribute**](CONTRIBUTING.md) • [**⭐ Star on GitHub**](https://github.com/guitargnarr/ba-pathfinder)
-
-</div>
 
 ---
 
-## 🎯 What is BA Pathfinder?
+## The Problem
 
-**Community-driven, interactive career roadmaps** to help Business Analysts at every level:
+**The BA career path is unclear.**
 
-- 🗺️ **Visual Learning Paths** - Click nodes to explore topics
-- 📈 **Career Progression** - From Junior BA to Director/VP
-- 🎓 **Certification Guides** - CBAP, CCBA, PMI-PBA, Agile certifications
-- 🛠️ **Tool Mastery** - Jira, Confluence, Figma, SQL, Power BI
-- 📖 **Curated Resources** - Books, courses, templates, communities
+- No standard progression from Junior to Senior to Director
+- Certifications scattered (CBAP, CCBA, PMI-PBA, Scrum certs) with unclear ROI
+- Tool proficiency varies wildly by industry (Jira vs Azure DevOps vs spreadsheets)
+- Career advice is generic: "get more experience" isn't actionable
 
----
-
-## 🗺️ Available Roadmaps
-
-<table>
-<tr>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/junior-ba">
-<img src="./public/icons/junior-ba.svg" width="80" height="80">
-<br><strong>Junior BA</strong>
-</a>
-<br>
-<sub>0-2 years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/mid-level-ba">
-<img src="./public/icons/mid-ba.svg" width="80" height="80">
-<br><strong>Mid-Level BA</strong>
-</a>
-<br>
-<sub>2-5 years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/senior-ba">
-<img src="./public/icons/senior-ba.svg" width="80" height="80">
-<br><strong>Senior BA</strong>
-</a>
-<br>
-<sub>5+ years</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/product-owner">
-<img src="./public/icons/po.svg" width="80" height="80">
-<br><strong>Product Owner</strong>
-</a>
-<br>
-<sub>Agile/Scrum</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/business-systems-analyst">
-<img src="./public/icons/bsa.svg" width="80" height="80">
-<br><strong>Business Systems Analyst</strong>
-</a>
-<br>
-<sub>Technical BA</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/data-analyst">
-<img src="./public/icons/data.svg" width="80" height="80">
-<br><strong>Data Analyst</strong>
-</a>
-<br>
-<sub>Analytics focus</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/agile-coach">
-<img src="./public/icons/coach.svg" width="80" height="80">
-<br><strong>Agile Coach</strong>
-</a>
-<br>
-<sub>Transformation</sub>
-</td>
-<td align="center" width="25%">
-<a href="https://ba-pathfinder.com/roadmaps/director-vp">
-<img src="./public/icons/leadership.svg" width="80" height="80">
-<br><strong>Director/VP BA</strong>
-</a>
-<br>
-<sub>Leadership</sub>
-</td>
-</tr>
-</table>
+New BAs don't know what to learn. Experienced BAs don't know what's next.
 
 ---
 
-## ✨ Features
+## The Synthesis Approach
 
-### 🎨 Interactive Visual Roadmaps
+I mapped the BA career domain by studying:
+- Job postings across industries and levels
+- Certification requirements and outcomes
+- Tool adoption patterns by company size
+- Career trajectories of successful BAs
 
-- **Click nodes** to view detailed explanations
-- **Non-linear exploration** - learn what interests you
-- **Progress tracking** - Mark topics as completed
-- **Mobile-friendly** - Works on all devices
-
-### 📚 Comprehensive Content
-
-Each roadmap node includes:
-- 📖 **Detailed explanation** of the topic
-- 🎯 **Why it matters** for your role
-- 📝 **Practical examples** from real projects
-- 🔗 **Curated resources** (articles, courses, books)
-- ✅ **Self-assessment questions** to test understanding
-
-### 🎓 Certification Guidance
-
-Integrated preparation for:
-- **IIBA Certifications:** CBAP, CCBA, ECBA
-- **PMI:** PMI-PBA (Professional in Business Analysis)
-- **Scrum:** CSPO, PSPO (Product Owner)
-- **Agile:** PMI-ACP, ICP-APO
-- **Technical:** ISTQB, AWS Cloud Practitioner, SQL certifications
-
-### 🛠️ Tool Proficiency Paths
-
-Master the essential BA toolkit:
-- **Requirements:** Jira, Azure DevOps, Confluence
-- **Documentation:** Lucidchart, Draw.io, Figma, Miro
-- **Data:** SQL, Excel, Power BI, Tableau
-- **Collaboration:** MS Teams, Slack, Zoom
-- **Project Management:** Monday.com, Asana, Trello
+**Result:** Structured roadmaps from Junior BA to Director/VP, with clear skill progressions, certification paths, and tool mastery guides.
 
 ---
 
-## 🚀 Quick Start
+## Available Roadmaps
 
-### View Online
+| Level | Experience | Focus |
+|-------|------------|-------|
+| **Junior BA** | 0-2 years | Fundamentals, first certifications, core tools |
+| **Mid-Level BA** | 2-5 years | Specialization, stakeholder management, process ownership |
+| **Senior BA** | 5+ years | Strategic influence, mentoring, domain expertise |
+| **Product Owner** | Agile track | Scrum mastery, backlog ownership, stakeholder alignment |
+| **Business Systems Analyst** | Technical track | SQL, system integrations, technical requirements |
+| **Data Analyst** | Analytics track | Power BI, SQL, data modeling, visualization |
+| **Director/VP BA** | Leadership | Team building, BA practice establishment, executive communication |
 
-Visit [**ba-pathfinder.com**](https://ba-pathfinder.com) to explore all roadmaps instantly.
+---
 
-### Run Locally
+## What Each Roadmap Includes
+
+- **Visual learning path** - Click nodes to explore topics
+- **Skill progressions** - What to learn in what order
+- **Certification guidance** - Which certs matter at which level
+- **Tool recommendations** - What to master, what to know
+- **Resources** - Books, courses, communities that actually help
+
+---
+
+## The Method
+
+This project demonstrates domain synthesis:
+
+1. **Enter unfamiliar domain** (BA career progression)
+2. **Map patterns and structures** (levels, skills, certifications, tools)
+3. **Build validation system** (interactive roadmaps with progress tracking)
+4. **Deliver operator-ready artifact** (BAs can navigate their own path)
+
+The chaos of "how do I advance my BA career?" becomes a structured, navigable map.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript
+- **Styling:** Tailwind CSS
+- **Roadmap Rendering:** Interactive SVG components
+- **Content:** Structured JSON data
+- **Deployment:** Vercel
+
+---
+
+## Quick Start
 
 ```bash
-# Clone repository
-git clone https://github.com/ba-pathfinder/ba-pathfinder.git
+git clone https://github.com/guitargnarr/ba-pathfinder
 cd ba-pathfinder
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
-
-# Open http://localhost:3000
 ```
 
-### Download Roadmaps (PDF/PNG)
-
-All roadmaps available as high-resolution downloads:
-- [Junior BA Roadmap (PDF)](https://ba-pathfinder.com/downloads/junior-ba.pdf)
-- [Mid-Level BA Roadmap (PNG)](https://ba-pathfinder.com/downloads/mid-level-ba.png)
-- [Senior BA Roadmap (PDF)](https://ba-pathfinder.com/downloads/senior-ba.pdf)
+Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📖 Featured Guides
+## Roadmap Structure
 
-### Career Transition
-- [**From QA to BA:** Complete transition guide](https://ba-pathfinder.com/guides/qa-to-ba)
-- [**From Developer to BA:** Leveraging technical background](https://ba-pathfinder.com/guides/dev-to-ba)
-- [**From Customer Support to BA:** Building on user empathy](https://ba-pathfinder.com/guides/support-to-ba)
-
-### Skill Development
-- [**Requirements Elicitation Masterclass:**](https://ba-pathfinder.com/guides/requirements-elicitation) Interviews, workshops, observation techniques
-- [**Stakeholder Management:**](https://ba-pathfinder.com/guides/stakeholder-management) Influence without authority, conflict resolution
-- [**Data Modeling for BAs:**](https://ba-pathfinder.com/guides/data-modeling) ERDs, UML, process flows
-
-### Career Growth
-- [**Salary Negotiation Guide:**](https://ba-pathfinder.com/guides/salary-negotiation) Market rates, negotiation tactics, offers evaluation
-- [**Interview Preparation:**](https://ba-pathfinder.com/guides/interview-prep) Common questions, case studies, behavioral examples
-- [**Resume Optimization:**](https://ba-pathfinder.com/guides/resume) ATS-friendly formats, achievement metrics
-
----
-
-## 🏆 Success Stories
-
-> "BA Pathfinder helped me transition from QA to BA role in 6 months. The roadmap showed me exactly what skills to develop."
-> — **Michael Torres**, Business Analyst @ Fortune 500
-
-> "I used the Senior BA roadmap to prepare for my CBAP exam and passed on my first attempt. The structured learning path was invaluable."
-> — **Aisha Johnson**, Certified Business Analysis Professional
-
-> "As a hiring manager, I recommend BA Pathfinder to all my new hires. It's the best career framework I've seen for Business Analysts."
-> — **David Chen**, Director of Business Analysis @ Tech Unicorn
-
----
-
-## 🗂️ Roadmap Structure
-
-Each roadmap follows a consistent structure:
+Each career path follows consistent structure:
 
 ```
 Foundations
@@ -224,22 +112,16 @@ Core Skills
 └── Solution Evaluation
 
 Tools & Technology
-├── Collaboration Tools (Jira, Confluence)
-├── Diagramming Tools (Lucidchart, Draw.io)
-├── Data Tools (SQL, Excel, Power BI)
-└── Testing Tools (basics for BA context)
+├── Collaboration (Jira, Confluence)
+├── Diagramming (Lucidchart, Draw.io)
+├── Data (SQL, Excel, Power BI)
+└── Testing (basics for BA context)
 
 Domain Knowledge
 ├── Industry-Specific Knowledge
 ├── Regulatory & Compliance
 ├── Financial Acumen
 └── Technical Literacy
-
-Soft Skills
-├── Communication
-├── Leadership
-├── Problem-Solving
-└── Critical Thinking
 
 Career Development
 ├── Certifications
@@ -250,96 +132,34 @@ Career Development
 
 ---
 
-## 🤝 Community
+## Why This Exists
 
-### Get Involved
+I spent a decade navigating regulated industries (healthcare, CMS compliance) as a hybrid BA/QA/technical role. The path was never clear - I figured it out through trial and error.
 
-- **💬 GitHub Discussions:** [Ask questions, share experiences](https://github.com/ba-pathfinder/ba-pathfinder/discussions)
-- **🐦 Twitter:** [@ba_pathfinder](https://twitter.com/ba_pathfinder) - Tips, updates, community highlights
-- **💼 LinkedIn:** [BA Pathfinder Group](https://linkedin.com/groups/ba-pathfinder) - Professional networking
-- **📧 Newsletter:** [Subscribe for monthly updates](https://ba-pathfinder.com/newsletter)
-
-### Contribute
-
-We're community-driven! **Everyone can contribute:**
-
-| I want to... | How to contribute |
-|--------------|-------------------|
-| 🗺️ **Suggest roadmap improvements** | [Open a roadmap suggestion](https://github.com/ba-pathfinder/ba-pathfinder/issues/new?template=roadmap_suggestion.yml) |
-| 📚 **Add resources (books, courses)** | [Submit a resource](https://github.com/ba-pathfinder/ba-pathfinder/issues/new?template=resource_submission.yml) |
-| ✍️ **Write guides/articles** | [Content contribution guide](CONTRIBUTING.md#content-contributions) |
-| 💻 **Improve website/platform** | [Development guide](CONTRIBUTING.md#development) |
-| 🌍 **Translate roadmaps** | [Translation guide](CONTRIBUTING.md#translations) |
-
-**Read our [Contribution Guide](CONTRIBUTING.md)** to get started!
+This roadmap is what I wish I had when I started.
 
 ---
 
-## 📊 Project Statistics
+## Author
 
-- **🌟 Stars:** 150,000+
-- **🍴 Forks:** 20,000+
-- **👥 Contributors:** 2,000+
-- **🗺️ Roadmaps:** 8 career paths
-- **📖 Content Pages:** 500+ topics
-- **📥 Downloads:** 1M+ roadmap exports
-- **🌍 Languages:** 12 translations
+**Matthew Scott** - AI-Enabled Strategist & Synthesist
 
----
+10 years navigating complex domains. Now I map them for others.
 
-## 🛠️ Tech Stack
-
-Built with modern web technologies:
-
-- **Frontend:** Next.js 14, React 18, TypeScript
-- **Styling:** Tailwind CSS
-- **Roadmap Rendering:** D3.js + SVG
-- **Content:** Markdown (MDX)
-- **Deployment:** Vercel (Edge Network)
-- **Analytics:** Plausible (privacy-friendly)
+- [Portfolio](https://resume.projectlavos.com)
+- [GitHub](https://github.com/guitargnarr)
+- [LinkedIn](https://linkedin.com/in/mscott77)
 
 ---
 
-## 📜 License
+## Contributing
 
-This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file for details.
+Found something missing? Know a better resource? PRs welcome.
 
-**TL;DR:** Free to use, modify, and distribute, even commercially. Just include the original copyright notice.
-
----
-
-## 🙏 Acknowledgments
-
-Inspired by:
-- [**Developer Roadmap**](https://roadmap.sh) by Kamran Ahmed - Visual roadmap pioneer
-- [**IIBA BABOK**](https://www.iiba.org/babok-guide/) - Business Analysis Body of Knowledge
-- [**PMI-PBA**](https://www.pmi.org/certifications/business-analysis-pba) - Professional Business Analysis framework
-
-Special thanks to:
-- All [**contributors**](https://github.com/ba-pathfinder/ba-pathfinder/graphs/contributors) who've shaped these roadmaps
-- The **Business Analysis community** for feedback and validation
-- **Sponsors** who keep this project free forever
+This is a living document - the BA field evolves, and so should these roadmaps.
 
 ---
 
-## 🔗 Related Projects
+## License
 
-- [**BA Templates**](https://github.com/ba-pathfinder/templates) - Ready-to-use BA document templates
-- [**BA Interview Questions**](https://github.com/ba-pathfinder/interview-questions) - 500+ curated interview questions
-- [**BA Tool Comparisons**](https://github.com/ba-pathfinder/tool-comparisons) - Side-by-side tool evaluations
-
----
-
-<div align="center">
-
-**Ready to accelerate your BA career?**
-
-[**🗺️ Explore Roadmaps**](https://ba-pathfinder.com) • [**📚 Read Guides**](https://ba-pathfinder.com/guides) • [**🤝 Join Community**](https://github.com/ba-pathfinder/ba-pathfinder/discussions)
-
----
-
-Made with ❤️ by the Business Analysis community
-
-**⭐ Star this repo if you find it useful!**
-
-</div>
+MIT - Use it, fork it, adapt it for your team.
