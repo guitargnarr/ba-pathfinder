@@ -21,22 +21,16 @@
           "timeEstimate": "1 week",
           "resources": [
             {
-              "type": "article",
-              "title": "Introduction to Business Analysis",
-              "url": "/content/roadmaps/junior-ba/what-is-ba.md",
-              "duration": "15 min read"
-            },
-            {
-              "type": "video",
-              "title": "Day in the Life of a Business Analyst",
-              "url": "https://youtube.com/watch?v=example",
-              "duration": "12 min"
-            },
-            {
               "type": "book",
               "title": "Business Analysis for Beginners",
               "author": "Mohamed Elgendy",
               "isbn": "978-1540508997"
+            },
+            {
+              "type": "article",
+              "title": "What Does a Business Analyst Do?",
+              "url": "https://www.iiba.org/professional-development/career-centre/what-is-business-analysis/",
+              "duration": "10 min read"
             }
           ],
           "selfAssessment": [
@@ -56,13 +50,15 @@
           "resources": [
             {
               "type": "article",
-              "title": "SDLC Models Explained",
-              "url": "/content/roadmaps/junior-ba/sdlc-basics.md"
+              "title": "SDLC - Overview",
+              "url": "https://www.tutorialspoint.com/sdlc/sdlc_overview.htm",
+              "duration": "15 min read"
             },
             {
-              "type": "interactive",
-              "title": "SDLC Phase Simulator",
-              "url": "/tools/sdlc-simulator"
+              "type": "article",
+              "title": "Agile vs Waterfall: Which Methodology is Right for Your Project?",
+              "url": "https://www.atlassian.com/agile/project-management/agile-vs-waterfall",
+              "duration": "10 min read"
             }
           ]
         },
@@ -77,8 +73,9 @@
           "resources": [
             {
               "type": "article",
-              "title": "Requirements 101",
-              "url": "/content/roadmaps/junior-ba/requirements-basics.md"
+              "title": "What Are Requirements in Business Analysis?",
+              "url": "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1936/What-Are-Requirements.aspx",
+              "duration": "12 min read"
             }
           ]
         },
@@ -113,18 +110,15 @@
           "resources": [
             {
               "type": "article",
-              "title": "Mastering BA Interviews",
-              "url": "/content/roadmaps/junior-ba/interviews.md"
+              "title": "The Art of Stakeholder Interviews",
+              "url": "https://www.batimes.com/articles/the-art-of-stakeholder-interviews/",
+              "duration": "15 min read"
             },
             {
-              "type": "template",
-              "title": "Interview Question Template",
-              "url": "/templates/interview-questions.docx"
-            },
-            {
-              "type": "video",
-              "title": "Role-Play: Stakeholder Interview",
-              "url": "/videos/interview-roleplay"
+              "type": "article",
+              "title": "Effective Interview Techniques for Business Analysts",
+              "url": "https://www.bridging-the-gap.com/interview-techniques/",
+              "duration": "10 min read"
             }
           ],
           "practiceProject": {
@@ -183,18 +177,15 @@
           "resources": [
             {
               "type": "article",
-              "title": "User Stories That Work",
-              "url": "/content/roadmaps/junior-ba/user-stories.md"
+              "title": "User Stories with Examples and Templates",
+              "url": "https://www.atlassian.com/agile/project-management/user-stories",
+              "duration": "10 min read"
             },
             {
-              "type": "template",
-              "title": "User Story Template",
-              "url": "/templates/user-story-template.md"
-            },
-            {
-              "type": "tool",
-              "title": "User Story Validator",
-              "url": "/tools/user-story-validator"
+              "type": "article",
+              "title": "Writing Good User Stories (INVEST Criteria)",
+              "url": "https://www.agilealliance.org/glossary/invest/",
+              "duration": "8 min read"
             }
           ],
           "practiceProject": {
@@ -334,9 +325,16 @@
           "cost": "$110 USD (exam fee)",
           "resources": [
             {
-              "type": "study-guide",
-              "title": "ECBA Exam Prep Guide",
-              "url": "/content/certifications/ecba-guide.md"
+              "type": "article",
+              "title": "ECBA Certification Overview",
+              "url": "https://www.iiba.org/business-analysis-certifications/ecba/",
+              "duration": "5 min read"
+            },
+            {
+              "type": "course",
+              "title": "ECBA Exam Prep Course",
+              "provider": "LinkedIn Learning",
+              "url": "https://www.linkedin.com/learning/topics/ecba"
             }
           ]
         },
