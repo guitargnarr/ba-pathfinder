@@ -162,12 +162,12 @@ export default function RoadmapVisualization({ data }: { data: RoadmapData }) {
   }, [data, dimensions])
 
   return (
-    <div className="relative">
+    <div style={{ position: 'relative', overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
       <svg
         ref={svgRef}
         width={dimensions.width}
         height={dimensions.height}
-        className="bg-slate-900 rounded-xl"
+        style={{ background: '#0f172a', borderRadius: '0.75rem', minWidth: '600px' }}
         onClick={() => setSelectedNode(null)}
       />
 

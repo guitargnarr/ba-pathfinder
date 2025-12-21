@@ -14,7 +14,21 @@ export default function JuniorBARoadmap() {
     <>
       <Head>
         <title>Junior BA Roadmap | BA Pathfinder</title>
-        <meta name="description" content="Interactive career roadmap for Junior Business Analysts (0-2 years experience)" />
+        <meta name="description" content="Interactive career roadmap for Junior Business Analysts (0-2 years experience). 6 categories, 25+ topics, 12-18 month path." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Junior BA Roadmap | BA Pathfinder" />
+        <meta property="og:description" content="Interactive career roadmap for Junior Business Analysts. 6 categories, 25+ topics, 12-18 month learning path." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://ba-pathfinder.vercel.app/roadmap/junior" />
+        <meta property="og:image" content="https://ba-pathfinder.vercel.app/og-image.png" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Junior BA Roadmap | BA Pathfinder" />
+        <meta name="twitter:description" content="Interactive career roadmap for Junior Business Analysts. 6 categories, 25+ topics." />
+        <meta name="twitter:image" content="https://ba-pathfinder.vercel.app/og-image.png" />
       </Head>
 
       <main style={{
@@ -25,7 +39,7 @@ export default function JuniorBARoadmap() {
         <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
           {/* Header */}
           <div style={{ marginBottom: '2rem' }}>
-            <Link href="/" style={{ color: '#14b8a6', textDecoration: 'none', fontSize: '0.875rem' }}>
+            <Link href="/" style={{ color: '#14b8a6', textDecoration: 'none', fontSize: '0.875rem', display: 'inline-flex', alignItems: 'center', minHeight: '44px', padding: '0.5rem 0' }}>
               ← Back to Home
             </Link>
             <h1 style={{
@@ -158,10 +172,10 @@ export default function JuniorBARoadmap() {
           {/* Footer */}
           <div style={{ textAlign: 'center', color: '#64748b', fontSize: '0.875rem', paddingTop: '2rem', borderTop: '1px solid #334155' }}>
             <p>BA Pathfinder • Built by Matthew Scott</p>
-            <p style={{ marginTop: '0.5rem' }}>
-              <Link href="/" style={{ color: '#14b8a6', textDecoration: 'none' }}>Home</Link>
-              {' • '}
-              <a href="https://github.com/guitargnarr/ba-pathfinder" style={{ color: '#14b8a6', textDecoration: 'none' }}>GitHub</a>
+            <p style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
+              <Link href="/" style={{ color: '#14b8a6', textDecoration: 'none', padding: '0.5rem 0.75rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}>Home</Link>
+              <span>•</span>
+              <a href="https://github.com/guitargnarr/ba-pathfinder" style={{ color: '#14b8a6', textDecoration: 'none', padding: '0.5rem 0.75rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}>GitHub</a>
             </p>
           </div>
         </div>
