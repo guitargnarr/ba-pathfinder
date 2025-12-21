@@ -212,13 +212,15 @@ export default function Home() {
             href="/roadmap/junior"
             style={{
               display: 'inline-block',
-              padding: '0.75rem 1.5rem',
+              padding: '0.875rem 1.5rem',
+              minHeight: '44px',
               background: '#14b8a6',
               color: 'white',
               textDecoration: 'none',
               borderRadius: '8px',
               fontWeight: '600',
-              marginRight: '1rem'
+              marginRight: '1rem',
+              boxSizing: 'border-box'
             }}
           >
             Explore Junior BA Path
@@ -230,13 +232,15 @@ export default function Home() {
             rel="noopener noreferrer"
             style={{
               display: 'inline-block',
-              padding: '0.75rem 1.5rem',
+              padding: '0.875rem 1.5rem',
+              minHeight: '44px',
               background: 'transparent',
               border: '2px solid #f97316',
               color: '#f97316',
               textDecoration: 'none',
               borderRadius: '8px',
-              fontWeight: '600'
+              fontWeight: '600',
+              boxSizing: 'border-box'
             }}
           >
             Star on GitHub
@@ -245,12 +249,26 @@ export default function Home() {
 
         <footer style={{ marginTop: '4rem', color: '#64748b', textAlign: 'center' }}>
           <p>Built by Matthew Scott</p>
-          <p style={{ marginTop: '0.5rem' }}>
-            <a href="https://github.com/guitargnarr" style={{ color: '#2dd4bf', textDecoration: 'none' }}>
+          <p style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
+            <a href="https://github.com/guitargnarr" style={{
+              color: '#2dd4bf',
+              textDecoration: 'none',
+              padding: '0.5rem 0.75rem',
+              minHeight: '44px',
+              display: 'inline-flex',
+              alignItems: 'center'
+            }}>
               @guitargnarr
             </a>
-            {' • '}
-            <a href="https://resume.projectlavos.com" style={{ color: '#2dd4bf', textDecoration: 'none' }}>
+            <span>•</span>
+            <a href="https://resume.projectlavos.com" style={{
+              color: '#2dd4bf',
+              textDecoration: 'none',
+              padding: '0.5rem 0.75rem',
+              minHeight: '44px',
+              display: 'inline-flex',
+              alignItems: 'center'
+            }}>
               Portfolio
             </a>
           </p>
