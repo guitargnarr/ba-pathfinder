@@ -10,6 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Matthew Scott" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://ba-pathfinder.projectlavos.com/" />
 
         {/* Open Graph */}
         <meta property="og:title" content="BA Pathfinder - Business Analyst Career Roadmaps | 7 Specialty Tracks" />
