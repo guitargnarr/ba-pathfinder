@@ -119,9 +119,9 @@ export default function Home() {
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                 <div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                    <h3 style={{ color: '#2dd4bf', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
+                    <h2 style={{ color: '#2dd4bf', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
                       Junior Business Analyst
-                    </h3>
+                    </h2>
                     <span style={{
                       background: '#14b8a6',
                       color: 'white',
@@ -153,9 +153,9 @@ export default function Home() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                  <h3 style={{ color: '#cbd5e1', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
+                  <h2 style={{ color: '#cbd5e1', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
                     Mid-Level Business Analyst
-                  </h3>
+                  </h2>
                   <span style={{
                     background: '#f97316',
                     color: 'white',
@@ -167,7 +167,7 @@ export default function Home() {
                     COMING SOON
                   </span>
                 </div>
-                <p style={{ color: '#64748b', margin: 0, fontSize: '0.875rem' }}>
+                <p style={{ color: '#94a3b8', margin: 0, fontSize: '0.875rem' }}>
                   2-5 years experience • Advanced elicitation • Stakeholder management
                 </p>
               </div>
@@ -184,9 +184,9 @@ export default function Home() {
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
-                  <h3 style={{ color: '#cbd5e1', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
+                  <h2 style={{ color: '#cbd5e1', fontSize: '1.25rem', fontWeight: 'bold', margin: 0 }}>
                     Senior / Lead Business Analyst
-                  </h3>
+                  </h2>
                   <span style={{
                     background: '#f97316',
                     color: 'white',
@@ -198,7 +198,7 @@ export default function Home() {
                     COMING SOON
                   </span>
                 </div>
-                <p style={{ color: '#64748b', margin: 0, fontSize: '0.875rem' }}>
+                <p style={{ color: '#94a3b8', margin: 0, fontSize: '0.875rem' }}>
                   5+ years experience • Strategy • Team leadership • Enterprise BA
                 </p>
               </div>
@@ -247,7 +247,7 @@ export default function Home() {
           </a>
         </div>
 
-        <footer style={{ marginTop: '4rem', color: '#64748b', textAlign: 'center' }}>
+        <footer style={{ marginTop: '4rem', color: '#94a3b8', textAlign: 'center' }}>
           <p>Built by Matthew Scott</p>
           <p style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
             <a href="https://github.com/guitargnarr" style={{
