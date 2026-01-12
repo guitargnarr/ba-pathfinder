@@ -1,11 +1,23 @@
 # BA Pathfinder
 
-**Career Domain: Business Analyst Path Synthesis**
+<p align="center">
+  <img src=".github/ba-pathfinder-hero.png" alt="BA Pathfinder - Business Analyst Career Roadmaps" width="800">
+</p>
 
-Interactive career roadmaps that map the chaotic BA career landscape into navigable progressions.
+<p align="center">
+  <strong>Interactive career roadmaps for Business Analysts.</strong>
+</p>
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-teal)](https://ba-pathfinder.vercel.app)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://ba-pathfinder.projectlavos.com">Live Demo</a> ·
+  <a href="#available-roadmaps">Roadmaps</a> ·
+  <a href="#the-synthesis-approach">Approach</a>
+</p>
+
+<p align="center">
+  <a href="https://ba-pathfinder.projectlavos.com"><img src="https://img.shields.io/badge/Live-Demo-teal" alt="Live Demo"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+</p>
 
 ---
 
