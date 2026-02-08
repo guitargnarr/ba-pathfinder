@@ -1,13 +1,14 @@
 import type { AppProps } from 'next/app'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import ErrorBoundary from '../components/ErrorBoundary'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <ErrorBoundary>
       <Component {...pageProps} />
       <Analytics />
       <SpeedInsights />
-    </>
+    </ErrorBoundary>
   )
 }
