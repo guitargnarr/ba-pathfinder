@@ -124,8 +124,8 @@ export default function Home() {
                       Junior Business Analyst
                     </h2>
                     <span style={{
-                      background: '#14b8a6',
-                      color: 'white',
+                      background: '#0f766e',
+                      color: '#f0fdfa',
                       padding: '0.125rem 0.5rem',
                       borderRadius: '9999px',
                       fontSize: '0.75rem',
@@ -138,7 +138,7 @@ export default function Home() {
                     0-2 years experience • 6 categories • 25+ topics • 12-18 months path
                   </p>
                 </div>
-                <div style={{ color: '#14b8a6', fontSize: '1.5rem' }}>→</div>
+                <div style={{ color: '#2dd4bf', fontSize: '1.5rem' }}>→</div>
               </div>
             </div>
           </Link>
@@ -148,8 +148,7 @@ export default function Home() {
             background: '#1e293b',
             border: '1px solid #334155',
             padding: '1.5rem',
-            borderRadius: '12px',
-            opacity: 0.7
+            borderRadius: '12px'
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
@@ -158,8 +157,8 @@ export default function Home() {
                     Mid-Level Business Analyst
                   </h2>
                   <span style={{
-                    background: '#f97316',
-                    color: 'white',
+                    background: '#7c2d12',
+                    color: '#fff7ed',
                     padding: '0.125rem 0.5rem',
                     borderRadius: '9999px',
                     fontSize: '0.75rem',
@@ -179,8 +178,7 @@ export default function Home() {
             background: '#1e293b',
             border: '1px solid #334155',
             padding: '1.5rem',
-            borderRadius: '12px',
-            opacity: 0.7
+            borderRadius: '12px'
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <div>
@@ -189,8 +187,8 @@ export default function Home() {
                     Senior / Lead Business Analyst
                   </h2>
                   <span style={{
-                    background: '#f97316',
-                    color: 'white',
+                    background: '#7c2d12',
+                    color: '#fff7ed',
                     padding: '0.125rem 0.5rem',
                     borderRadius: '9999px',
                     fontSize: '0.75rem',
@@ -215,7 +213,7 @@ export default function Home() {
               display: 'inline-block',
               padding: '0.875rem 1.5rem',
               minHeight: '44px',
-              background: '#14b8a6',
+              background: '#0f766e',
               color: 'white',
               textDecoration: 'none',
               borderRadius: '8px',
