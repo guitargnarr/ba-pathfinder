@@ -175,7 +175,7 @@ export default function JuniorBARoadmap() {
             <p style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
               <Link href="/" style={{ color: '#14b8a6', textDecoration: 'none', padding: '0.5rem 0.75rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}>Home</Link>
               <span>•</span>
-              <a href="https://github.com/guitargnarr/ba-pathfinder" style={{ color: '#14b8a6', textDecoration: 'none', padding: '0.5rem 0.75rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}>GitHub</a>
+              <a href="https://projectlavos.com" style={{ color: '#14b8a6', textDecoration: 'none', padding: '0.5rem 0.75rem', minHeight: '44px', display: 'inline-flex', alignItems: 'center' }}>Project Lavos</a>
             </p>
           </div>
         </div>

@@ -226,9 +226,7 @@ export default function Home() {
           </Link>
 
           <a
-            href="https://github.com/guitargnarr/ba-pathfinder"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://projectlavos.com"
             style={{
               display: 'inline-block',
               padding: '0.875rem 1.5rem',
@@ -242,25 +240,14 @@ export default function Home() {
               boxSizing: 'border-box'
             }}
           >
-            Star on GitHub
+            Project Lavos
           </a>
         </div>
 
         <footer style={{ marginTop: '4rem', color: '#94a3b8', textAlign: 'center' }}>
           <p>Built by Matthew Scott</p>
           <p style={{ marginTop: '0.5rem', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.5rem' }}>
-            <a href="https://github.com/guitargnarr" style={{
-              color: '#2dd4bf',
-              textDecoration: 'none',
-              padding: '0.5rem 0.75rem',
-              minHeight: '44px',
-              display: 'inline-flex',
-              alignItems: 'center'
-            }}>
-              @guitargnarr
-            </a>
-            <span>•</span>
-            <a href="https://resume.projectlavos.com" style={{
+            <a href="https://projectlavos.com" style={{
               color: '#2dd4bf',
               textDecoration: 'none',
               padding: '0.5rem 0.75rem',
